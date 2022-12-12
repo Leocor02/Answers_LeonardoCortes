@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Answers_LeonardoCortes.Android", "Answers_LeonardoCortes\Answers_LeonardoCortes.Android\Answers_LeonardoCortes.Android.csproj", "{EBB4D46D-815C-4B32-AF57-127BA491DEDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Answers_LeonardoCortes", "Answers_LeonardoCortes\Answers_LeonardoCortes\Answers_LeonardoCortes.csproj", "{13D37E87-B1AC-4D41-BADE-7992E81D813D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBB4D46D-815C-4B32-AF57-127BA491DEDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBB4D46D-815C-4B32-AF57-127BA491DEDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBB4D46D-815C-4B32-AF57-127BA491DEDB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EBB4D46D-815C-4B32-AF57-127BA491DEDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBB4D46D-815C-4B32-AF57-127BA491DEDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBB4D46D-815C-4B32-AF57-127BA491DEDB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{13D37E87-B1AC-4D41-BADE-7992E81D813D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13D37E87-B1AC-4D41-BADE-7992E81D813D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13D37E87-B1AC-4D41-BADE-7992E81D813D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{13D37E87-B1AC-4D41-BADE-7992E81D813D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13D37E87-B1AC-4D41-BADE-7992E81D813D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13D37E87-B1AC-4D41-BADE-7992E81D813D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2294E28-EA54-4CAF-958F-75AA51FA1024}
+	EndGlobalSection
+EndGlobal
