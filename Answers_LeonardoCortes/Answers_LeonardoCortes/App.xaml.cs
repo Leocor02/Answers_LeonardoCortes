@@ -14,7 +14,8 @@ namespace Answers_LeonardoCortes
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-            MainPage = new AppShell();
+
+            MainPage = new NavigationPage(new WelcomePage());
         }
 
         protected override void OnStart()
