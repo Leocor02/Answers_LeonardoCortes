@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Answers_LeonardoCortes.Views.AskPage">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+            
+            <Label Text="Questions"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+                <ListView x:Name="LstQuestions" RowHeight="200">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            
+                            <ImageCell Text="{Binding Ask1}"
+                                       Detail="{Binding AskDetail}"
+                                       ImageSource="{Binding ImageUrl}"/>
+                        
+                        </DataTemplate>
+                        
+                    </ListView.ItemTemplate>
+                    
+                    
+                </ListView>
+            
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

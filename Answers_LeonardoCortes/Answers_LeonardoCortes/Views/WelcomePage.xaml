@@ -5,12 +5,10 @@
              Shell.NavBarIsVisible="False"
              NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-
-            
+        <StackLayout Padding="60,0,60,0" VerticalOptions="Center">
+     
+            <Button x:Name="BtnIngreso" Text="Ingresar" CornerRadius="20" Clicked="BtnIngreso_Clicked"/>
+     
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
